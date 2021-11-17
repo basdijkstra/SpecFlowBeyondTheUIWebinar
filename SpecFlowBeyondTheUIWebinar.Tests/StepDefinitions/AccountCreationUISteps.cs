@@ -20,7 +20,7 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.StepDefinitions
         }
 
         [Given(@"user (.*) is ready to open a new account")]
-        public void IsARegisteredParaBankUser(string firstName)
+        public void UserIsReadyToOpenANewAccount(string firstName)
         {
             new LoginPage(driver)
                 .LoginAs("john", "demo");
