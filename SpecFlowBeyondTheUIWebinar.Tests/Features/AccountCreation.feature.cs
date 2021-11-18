@@ -76,11 +76,11 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Successfully opening a new account")]
-        [NUnit.Framework.CategoryAttribute("ui")]
+        [NUnit.Framework.CategoryAttribute("db")]
         public virtual void SuccessfullyOpeningANewAccount()
         {
             string[] tagsOfScenario = new string[] {
-                    "ui"};
+                    "db"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successfully opening a new account", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 7
