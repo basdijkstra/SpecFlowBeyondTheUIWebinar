@@ -18,7 +18,7 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.StepDefinitions
         private string customerId;
         private string fromAccountId;
 
-        private string newAccountNumber;
+        private int newAccountNumber;
 
         [BeforeScenario]
         public void CreateTheRestClient()

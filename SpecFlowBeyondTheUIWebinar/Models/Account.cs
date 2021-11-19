@@ -5,7 +5,7 @@ namespace SpecFlowBeyondTheUIWebinar.Models
     public class Account
     {
         [JsonProperty("id")]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         [JsonProperty("customerId")]
         public int CustomerId { get; set; }
@@ -14,6 +14,6 @@ namespace SpecFlowBeyondTheUIWebinar.Models
         public double Balance { get; set; }
 
         [JsonProperty("type")]
-        public string AccountType { get; set; }
+        public string AccountType { get; set; } = string.Empty;
     }
 }
