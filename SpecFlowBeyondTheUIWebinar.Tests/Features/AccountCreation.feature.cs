@@ -75,14 +75,14 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Successfully opening a new account")]
+        [NUnit.Framework.DescriptionAttribute("A newly created account shows up in the list of accounts")]
         [NUnit.Framework.CategoryAttribute("ui")]
-        public virtual void SuccessfullyOpeningANewAccount()
+        public virtual void ANewlyCreatedAccountShowsUpInTheListOfAccounts()
         {
             string[] tagsOfScenario = new string[] {
                     "ui"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successfully opening a new account", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A newly created account shows up in the list of accounts", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden

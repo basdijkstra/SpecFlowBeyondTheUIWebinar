@@ -4,7 +4,7 @@ I want to be able to open a new account
 So I can manage my finances more efficiently
 
 @ignore @ui
-Scenario: Successfully opening a new account using the GUI
+Scenario: A newly created account shows up in the list of accounts using the GUI
 	Given John is a registered ParaBank client
 	And John is on the ParaBank home page
 	When they login using their credentials
@@ -14,7 +14,7 @@ Scenario: Successfully opening a new account using the GUI
 	And they see the newly opened account on the Accounts Overview screen
 
 @ignore @api
-Scenario: Successfully opening a new account using the REST API
+Scenario: A newly created account shows up in the list of accounts using the REST API
 	Given John is a registered ParaBank client
 	And they want to create a new checking account
 	When they POST the necessary details to /accounts
