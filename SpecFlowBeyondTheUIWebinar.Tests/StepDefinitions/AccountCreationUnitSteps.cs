@@ -8,8 +8,8 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.StepDefinitions
     [Binding, Scope(Tag = "unit")]
     public class AccountCreationUnitSteps
     {
-        private Customer customer;
-        private Account account;
+        private Customer customer = default!;
+        private Account account = default!;
 
         [Given(@"user (.*) is ready to open a new account")]
         public void UserIsReadyToOpenANewAccount(string firstName)

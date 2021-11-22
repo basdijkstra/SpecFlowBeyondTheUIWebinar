@@ -12,11 +12,11 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.StepDefinitions
     {
         private const string BASE_URL = "http://localhost:8080/parabank/services/bank";
 
-        private RestClient client;
+        private RestClient client = default!;
 
-        private string newAccountType;
-        private string customerId;
-        private string fromAccountId;
+        private string newAccountType = default!;
+        private string customerId = default!;
+        private string fromAccountId = default!;
 
         private int newAccountNumber;
 

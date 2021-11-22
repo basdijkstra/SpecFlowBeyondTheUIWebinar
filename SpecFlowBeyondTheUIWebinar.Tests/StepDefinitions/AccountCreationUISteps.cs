@@ -10,7 +10,7 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.StepDefinitions
     public class AccountCreationUISteps
     {
         private IWebDriver driver;
-        private string newAccountNumber;
+        private string newAccountNumber = default!;
         public AccountCreationUISteps() => driver = new ChromeDriver();
 
         [BeforeScenario]

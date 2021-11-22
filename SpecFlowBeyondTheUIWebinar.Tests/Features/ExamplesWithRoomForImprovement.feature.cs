@@ -75,16 +75,16 @@ namespace SpecFlowBeyondTheUIWebinar.Tests.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Successfully opening a new account using the GUI")]
+        [NUnit.Framework.DescriptionAttribute("A newly created account shows up in the list of accounts using the GUI")]
         [NUnit.Framework.IgnoreAttribute("Ignored scenario")]
         [NUnit.Framework.CategoryAttribute("ui")]
-        public virtual void SuccessfullyOpeningANewAccountUsingTheGUI()
+        public virtual void ANewlyCreatedAccountShowsUpInTheListOfAccountsUsingTheGUI()
         {
             string[] tagsOfScenario = new string[] {
                     "ignore",
                     "ui"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successfully opening a new account using the GUI", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A newly created account shows up in the list of accounts using the GUI", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -131,16 +131,16 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Successfully opening a new account using the REST API")]
+        [NUnit.Framework.DescriptionAttribute("A newly created account shows up in the list of accounts using the REST API")]
         [NUnit.Framework.IgnoreAttribute("Ignored scenario")]
         [NUnit.Framework.CategoryAttribute("api")]
-        public virtual void SuccessfullyOpeningANewAccountUsingTheRESTAPI()
+        public virtual void ANewlyCreatedAccountShowsUpInTheListOfAccountsUsingTheRESTAPI()
         {
             string[] tagsOfScenario = new string[] {
                     "ignore",
                     "api"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successfully opening a new account using the REST API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A newly created account shows up in the list of accounts using the REST API", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 17
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
