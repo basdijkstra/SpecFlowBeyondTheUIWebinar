@@ -177,7 +177,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("the newly generated account number can be found in the response", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 23
- testRunner.When("they retrieve the list of their accounts", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("they GET the list of accounts from /customers/12212/accounts", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 24
  testRunner.Then("they can see the new account number in the list of their accounts in the response" +

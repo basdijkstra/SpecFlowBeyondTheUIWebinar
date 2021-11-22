@@ -20,5 +20,5 @@ Scenario: A newly created account shows up in the list of accounts using the RES
 	When they POST the necessary details to /accounts
 	Then they receive an HTTP 201 status code
 	And the newly generated account number can be found in the response
-	When they retrieve the list of their accounts
+	When they GET the list of accounts from /customers/12212/accounts
 	Then they can see the new account number in the list of their accounts in the response
